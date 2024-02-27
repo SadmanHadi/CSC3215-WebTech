@@ -55,7 +55,6 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
     $phoneInvalidMsg = "";
     $websiteInvalidMsg="";
 
-
     if(empty($firstName)) {
         
         $firstNameErrMsg = "Please fill up the first name";
